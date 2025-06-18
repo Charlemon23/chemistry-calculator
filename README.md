@@ -1,55 +1,27 @@
-#  Chemistry Calculator
+# Chemistry Calculator
 
-A full-featured terminal-based chemistry calculator that helps students and professionals calculate molarity, molality, percent yield, dilutions, and balance chemical equations.
+A full-featured terminal-based chemistry calculator designed for students, researchers, and professionals. This tool helps you compute molarity, molality, percent yield, dilutions, and balance chemical equations — using only the command line.
 
-##  Features
+## Features
 
 - Convert between grams and moles
-- Calculate molarity, molality, normality, percent yield
+- Calculate molarity, molality, normality, and percent yield
 - Perform dilution calculations
-- Balance chemical equations
+- Balance chemical equations (full or reactants-only input)
+- Terminal-only usage — no web server or GUI required
 - Built with Python and powered by `molmass` and `chempy`
 
 ## Getting Started
 
-### 1. Clone the Repository
+### Prerequisites
+
+- Python 3.7+
+- pip
+
+### Installation
 
 ```bash
-git clone https://github.com/yourusername/chem-calc-tool.git
-cd chem-calc-tool
-```
-
-### 2. Run the App
-
-```bash
-python app.py
-```
-
-No manual installation required! The `.exe` version is coming soon for one-click usage.
-
-## Project Structure
-
-```
-chem-calc-tool/
-├── chemcalc/
-│   ├── __init__.py
-│   └── core.py
-├── app.py
-├── requirements.txt
-├── .gitignore
-└── README.md
-```
-
-##  Dependencies
-
-- `molmass`
-- `chempy`
-
-Install with:
-```bash
+git clone https://github.com/Charlemon23/ChemistryCalculator.git
+cd ChemistryCalculator
 pip install -r requirements.txt
-```
-
-##  License
-
-MIT License
+python app.py
