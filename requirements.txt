@@ -1,4 +1,2 @@
-molmass
-chempy
-gunicorn
-flask
+molmass>=2023.5.3
+chempy>=0.8.0
